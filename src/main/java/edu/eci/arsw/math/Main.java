@@ -5,7 +5,6 @@
  */
 package edu.eci.arsw.math;
 
-import java.util.Arrays;
 
 /**
  *
@@ -17,8 +16,10 @@ public class Main {
 
         //System.out.println(bytesToHex(PiDigits.getDigits(0, 10, 100)));
         //System.out.println(bytesToHex(PiDigits.getDigits(1, 100, 100)));
-        System.out.println(bytesToHex(PiDigits.getDigits(1, 100000, 1000)));
+        System.out.println(bytesToHex(PiDigits.getDigits(1, 100000, 100)));
 
+
+        //System.out.println(bytesToHex(PiDigits.getDigits(0, 100, 10)));
         //PiDigits.getDigits(0, 10, 100);
     }
 

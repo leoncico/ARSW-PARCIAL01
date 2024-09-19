@@ -15,7 +15,6 @@ public class PiDigitsThread extends Thread{
 
     @Override
     public void run() {
-        System.out.println(start);
         calculateDigits(start, count);
     }
     

@@ -23,12 +23,12 @@ public class PiDigits {
      */
     public static byte[] getDigits(int start, int count, int N) {
         List<PiDigitsThread> threads = new ArrayList<>();
-        
+
         int range = (start + count) / N;
 
     
         for(int i=0; i<N; i++){
-            threads.add(new PiDigitsThread(start + range*i, count));
+            threads.add(new PiDigitsThread(start + range*i, count/N));
         }
 
         for(PiDigitsThread t : threads){
